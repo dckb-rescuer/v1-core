@@ -11,10 +11,6 @@ version = "0.4.4"
 deployment = "deployment.toml"
 
 [[contracts]]
-name = "index"
-template_type = "Rust"
-
-[[contracts]]
 name = "config"
 template_type = "Rust"
 
@@ -23,35 +19,7 @@ name = "type_lock"
 template_type = "Rust"
 
 [[contracts]]
-name = "cdp"
-template_type = "Rust"
-
-[[contracts]]
-name = "token"
-template_type = "Rust"
-
-[[contracts]]
-name = "always_success"
-template_type = "Rust"
-
-[[contracts]]
-name = "debt"
-template_type = "Rust"
-
-[[contracts]]
-name = "auction"
-template_type = "Rust"
-
-[[contracts]]
-name = "sys_debt"
-template_type = "Rust"
-
-[[contracts]]
 name = "dao_info"
-template_type = "Rust"
-
-[[contracts]]
-name = "burn_lock"
 template_type = "Rust"
 
 [[contracts]]
